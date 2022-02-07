@@ -6,18 +6,23 @@
 
 body {
   background-color: #03151d;
-}
-
-.banner {
-  width: 100%;
-  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(../assets/back1.gif);
   background-size: cover;
   background-position: center;
 }
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../assets/back1.gif);
+  background-size: cover;
+  background-position: center;
+ background-repeat: repeat; */
+}
 .details {
-  width: 60%;
+  width: 80%;
   margin: auto;
   font-size: x-large;
 }
@@ -124,10 +129,10 @@ body {
   color: #fff;
 }
 .frame {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(../assets/back1.gif);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   color: #fff;
   padding: 40px;
    
