@@ -69,16 +69,23 @@ body {
 }
 
 .logo{
-    width: 160px;
+    margin: 0.8rem;
     cursor: pointer;
+}
+
+
+.logo-set {
+  width: 70%;
 }
 
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     position: relative;
     font-weight: bold;
+     padding: 0.5rem;
+  align-items: end;
 }
 
 .navbar ul li a{
@@ -107,11 +114,12 @@ body {
 }
 .main{
    width: 100%;
-   position: absolute;
-   top: 20%;
+   /* position: absolute;
+   top: 20%; */
    transform: translateY();
    text-align: left;
    color: #fff; 
+   margin-top: 2rem;;
 }
 
 .main ul{
@@ -223,3 +231,23 @@ footer{
     background-color: black;
     
 }
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    display: grid;
+  }
+
+  .logo-set {
+    width: 100%;
+  }
+
+  .keys {
+    width: 100%;
+  }
+
+  .keys ul li{
+    display:inline-block;
+    align-items: center;
+  }
+}
+
